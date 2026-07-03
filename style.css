@@ -91,6 +91,9 @@ footer{ background:var(--ink); color:var(--cream); text-align:center; padding:9v
 footer .compass circle{ stroke:var(--gold) } footer .compass polygon{ fill:var(--gold) }
 footer .refrain{ font-family:var(--display); font-weight:600; font-size:26px; line-height:1.32; margin:18px 0 20px }
 footer .fmark{ font-family:var(--display); font-weight:600; letter-spacing:.3em; text-transform:uppercase; color:var(--gold); font-size:15px }
+footer .social{ display:inline-flex; align-items:center; gap:8px; margin-top:16px; color:var(--gold); text-decoration:none; font-family:var(--serif); font-style:italic; font-size:15px }
+footer .social svg{ width:18px; height:18px }
+footer .social:hover{ color:var(--sage2) }
 footer .fine{ font-family:var(--serif); font-style:italic; color:var(--sage2); font-size:14px; margin-top:14px }
 
 /* reveal */
