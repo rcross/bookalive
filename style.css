@@ -74,7 +74,7 @@ section{ padding:8vh 0; }
 
 /* signup card */
 .signup{ text-align:center }
-.card{ max-width:520px; margin:8px auto 0; background:var(--cream2); border:2px dashed var(--gold); border-radius:16px; padding:34px 30px; }
+.card{ max-width:540px; margin:8px auto 0; background:transparent; border:2px dashed var(--gold); border-radius:16px; padding:16px; }
 .card h3{ font-family:var(--display); font-weight:600; font-size:26px; letter-spacing:.02em; margin:0 0 6px; color:var(--terra); text-transform:uppercase }
 .card p{ margin:0 0 18px; color:var(--ink-soft) }
 form{ display:flex; gap:10px; max-width:400px; margin:0 auto }

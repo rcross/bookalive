@@ -139,13 +139,7 @@
   <div class="wrap">
     <p class="kick">Stay in the chain</p>
     <div class="card">
-      <h3>Be told where they surface</h3>
-      <p>The books appear at conventions and disappear again. Leave an address and I will tell you where they turn up &mdash; and when new ones wake.</p>
-      <form id="signup-form" novalidate>
-        <input type="email" name="email" placeholder="your@email" aria-label="Email address" required>
-        <button class="submit" type="submit">Keep me posted</button>
-      </form>
-      <p id="thanks" class="thanks" hidden tabindex="-1">Thank you. You are on the list now. Watch your hands &mdash; one may reach you sooner than you think.</p>
+      <script async data-uid="779142fd4b" src="https://booksalive.kit.com/779142fd4b/index.js"></script>
     </div>
   </div>
 </section>
@@ -173,18 +167,5 @@
     <p class="fine">a library of living books &middot; encountered at conventions</p>
   </div>
 </footer>
-<script>(function(){
-  // Email capture: create a free form at https://formspree.io and paste its
-  // endpoint here (e.g. "https://formspree.io/f/abcdwxyz"). Empty = no capture.
-  var ENDPOINT = "";
-  var f=document.getElementById('signup-form');
-  f.addEventListener('submit',function(e){ e.preventDefault();
-    var em=f.querySelector('input[type=email]');
-    if(!em.value||em.validity.typeMismatch){ em.focus(); return; }
-    function done(){ f.style.display='none'; var t=document.getElementById('thanks'); t.hidden=false; t.focus(); }
-    if(ENDPOINT){ fetch(ENDPOINT,{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)}).then(done).catch(done); }
-    else { done(); }
-  });
-})();</script>
 </body>
 </html>
